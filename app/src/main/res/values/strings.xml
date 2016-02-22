@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MatlabIntegretMulApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="stringMultiplyElement1">MultiplyElement1</string>
+    <string name="stringMultiplyElement2">MultiplyElement2</string>
+    <string name="stringOutput">Output</string>
+</resources>
