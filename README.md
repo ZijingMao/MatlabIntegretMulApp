@@ -17,10 +17,12 @@ Matlab coder required to be installed first in Matlab
 
 Write simple multiplication matlab code (see .\matlab_source_code)
 ```Matlab
+% test function
 function [ c ] = matrix_multiplication( a, b )
     c = a * b;
 end
 
+% test script
 a = [1, 2, 3; 4, 5, 6];
 b = [1, 2; 3, 4; 5, 6];
 c = matrix_multiplication(a, b);
@@ -43,11 +45,9 @@ Convert Matlab code to C code using coder (see ...app\src\main\jni\src\MatrixMul
 ```bash
 >$cd app\src\main
 >#exec swig with interface to generate swig wrapper for C/C++
->$c:\swigwin-3.0.8\swig.exe -java -package com.matrixmultiplication -outdir 
-..\java\com\matrixmultiplication -o libmatrixmultiplication_wrap.c libmatrixmultiplication.i
+>$c:\swigwin-3.0.8\swig.exe -java -package com.matrixmultiplication -outdir ..\java\com\matrixmultiplication -o libmatrixmultiplication_wrap.c libmatrixmultiplication.i
 >#link all source and header based on the configuration of Android.mk file
->#notice the include $(BUILD_SHARED_LIBRARY) should be at last to prevent errors, 
-if error still exist, see _ref[9]_ and _Potential Problems for NDK_
+>#notice the include $(BUILD_SHARED_LIBRARY) should be at last to prevent errors, if error still exist, see _ref[9]_ and _Potential Problems for NDK_
 >$c:\NVPACK\android-ndk-r10e\ndk-build
 ```
 
