@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         BandpowerCalc.fft_bandpower_calculate(randomNumbers, Fs, band, totalPower, pBand);
 
         Log.d(TAG, Arrays.toString(c));
+        //String totalPowerDoubleOld = Long.toHexString(SWIGTYPE_p_double.getCPtr(totalPower));
         double totalPowerDouble = BandpowerCalc.doubleArray_getitem(totalPower, 0);
         double pBandDouble = BandpowerCalc.doubleArray_getitem(pBand, 0);
         Log.d(TAG, Double.toString(pBandDouble/totalPowerDouble));
