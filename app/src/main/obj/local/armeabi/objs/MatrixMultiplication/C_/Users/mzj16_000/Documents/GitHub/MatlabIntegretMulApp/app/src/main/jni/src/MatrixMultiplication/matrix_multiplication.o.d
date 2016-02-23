@@ -3,31 +3,31 @@ C:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/obj/local/
  C:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/jni/src/MatrixMultiplication/rt_nonfinite.h \
  C:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/jni/src/MatrixMultiplication/rtwtypes.h \
  C:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/jni/src/MatrixMultiplication/matrix_multiplication.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdlib.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/string.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/malloc.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/xlocale.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/alloca.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/strings.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/types.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/types.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/types.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h \
- C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/memory.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdlib.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/string.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/malloc.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/xlocale.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/alloca.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/strings.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/types.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/types.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/types.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h \
+ c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/memory.h \
  C:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/jni/src/MatrixMultiplication/matrix_multiplication_types.h
 
 C:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/jni/src/MatrixMultiplication/rt_nonfinite.h:
@@ -36,54 +36,54 @@ C:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/jni/src/Ma
 
 C:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/jni/src/MatrixMultiplication/matrix_multiplication.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdlib.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdlib.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/android/api-level.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/string.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/string.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/malloc.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/malloc.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/xlocale.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/xlocale.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/alloca.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/alloca.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/strings.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/strings.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/types.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/types.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/stdint.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/types.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/types.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/types.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/types.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/types.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/posix_types.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/stddef.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/linux/compiler.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm/posix_types.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h:
 
-C:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/memory.h:
+c:/NVPACK/android-ndk-r10e/platforms/android-21/arch-arm/usr/include/memory.h:
 
 C:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/jni/src/MatrixMultiplication/matrix_multiplication_types.h:

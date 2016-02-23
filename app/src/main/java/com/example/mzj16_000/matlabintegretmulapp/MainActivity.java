@@ -12,11 +12,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.bandpowercalc.*;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import java.util.Arrays;
+import java.util.Random;
 
 import com.matrixmultiplication.MatrixMultiplication;
 
@@ -37,7 +39,10 @@ public class MainActivity extends AppCompatActivity {
     private double[] b = {1, 2, 3, 4, 5, 6};
     private double[] c = new double[4];
 
+    private double[] randomNumbers = new double[256];
+
     private MatrixMultiplication mm;
+    private BandpowerCalc bc;
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -59,8 +64,24 @@ public class MainActivity extends AppCompatActivity {
         //TODO replace the function to MATLAB multiplication function here
         multiplyOutput = matrixMultiplication(multiplyDoubleElement1, multiplyDoubleElement2);
 
-        mm.matrix_multiplication(a, b, c);
+        MatrixMultiplication.matrix_multiplication(a, b, c);
+
+        //TODO test the second library is working or not
+        Random randSignal = new Random();
+        for (int i = 0; i < randomNumbers.length; i++) {
+            int n = randSignal.nextInt(100);
+            randomNumbers[i] = n;
+        }
+        double Fs = 256;
+        double [] band = {5.0, 10.9};
+        SWIGTYPE_p_double totalPower = BandpowerCalc.new_doubleArray(1);
+        SWIGTYPE_p_double pBand = BandpowerCalc.new_doubleArray(1);
+        BandpowerCalc.fft_bandpower_calculate(randomNumbers, Fs, band, totalPower, pBand);
+
         Log.d(TAG, Arrays.toString(c));
+        double totalPowerDouble = BandpowerCalc.doubleArray_getitem(totalPower, 0);
+        double pBandDouble = BandpowerCalc.doubleArray_getitem(pBand, 0);
+        Log.d(TAG, Double.toString(totalPowerDouble/pBandDouble));
 
         textViewMultiplyElement1.setText(Arrays.deepToString(multiplyDoubleElement1));
         textViewMultiplyElement2.setText(Arrays.deepToString(multiplyDoubleElement2));
@@ -172,6 +193,7 @@ public class MainActivity extends AppCompatActivity {
 
     static {
         System.loadLibrary("MatrixMultiplication");
+        System.loadLibrary("BandpowerCalc");
     }
 
 //    public interface dll extends Library {
