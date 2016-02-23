@@ -5,7 +5,7 @@
  * File: fft_bandpower_calculate_initialize.c
  *
  * MATLAB Coder version            : 3.0
- * C/C++ source code generated on  : 22-Feb-2016 19:46:56
+ * C/C++ source code generated on  : 22-Feb-2016 20:51:15
  */
 
 /* Include Files */

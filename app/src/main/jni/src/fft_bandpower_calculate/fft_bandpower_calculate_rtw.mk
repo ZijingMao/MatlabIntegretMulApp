@@ -2,7 +2,7 @@
 ## Makefile generated for MATLAB file/project 'fft_bandpower_calculate'. 
 ## 
 ## Makefile     : fft_bandpower_calculate_rtw.mk
-## Generated on : Mon Feb 22 19:46:59 2016
+## Generated on : Mon Feb 22 20:51:20 2016
 ## MATLAB Coder version: 3.0 (R2015b)
 ## 
 ## Build Info:
@@ -190,7 +190,7 @@ BUILD_TYPE = "Static Library"
 ## INCLUDE PATHS
 ###########################################################################
 
-INCLUDES_BUILDINFO = -I$(START_DIR) -I$(START_DIR)/codegen/lib/fft_bandpower_calculate -IC:/Users/mzj16_000/Documents/GitHub/MatlabIntegretMulApp/app/src/main/jni/src/fft_bandpower_calculate -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert
+INCLUDES_BUILDINFO = -I$(START_DIR) -I$(START_DIR)/codegen/lib/fft_bandpower_calculate -I$(MATLAB_ROOT)/extern/include -I$(MATLAB_ROOT)/simulink/include -I$(MATLAB_ROOT)/rtw/c/src -I$(MATLAB_ROOT)/rtw/c/src/ext_mode/common -I$(MATLAB_ROOT)/rtw/c/ert
 
 INCLUDES = $(INCLUDES_BUILDINFO)
 

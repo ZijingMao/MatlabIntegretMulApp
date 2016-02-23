@@ -5,7 +5,7 @@
  * File: fft_bandpower_calculate.c
  *
  * MATLAB Coder version            : 3.0
- * C/C++ source code generated on  : 22-Feb-2016 19:46:56
+ * C/C++ source code generated on  : 22-Feb-2016 20:51:15
  */
 
 /* Include Files */
@@ -90,8 +90,8 @@ void fft_bandpower_calculate(const double data[256], double Fs, double band[2],
   }
 
   for (i = 0; i < 129; i++) {
-    bv0[i] = (f[i] > band[0]);
-    bv1[i] = (f[i] < band[1]);
+    bv0[i] = (f[i] >= band[0]);
+    bv1[i] = (f[i] <= band[1]);
   }
 
   power(c_power, dv0);

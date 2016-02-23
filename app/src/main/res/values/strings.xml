@@ -4,4 +4,5 @@
     <string name="stringMultiplyElement1">MultiplyElement1</string>
     <string name="stringMultiplyElement2">MultiplyElement2</string>
     <string name="stringOutput">Output</string>
+    <string name="stringPowerRatio">Power Ratio</string>
 </resources>

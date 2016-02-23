@@ -36,4 +36,13 @@
         android:layout_below="@+id/textViewMul2"
         android:layout_alignParentStart="true"
         android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stringPowerRatio"
+        android:id="@+id/textViewPowerRatio"
+        android:layout_below="@+id/textViewOutput"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"/>
 </RelativeLayout>

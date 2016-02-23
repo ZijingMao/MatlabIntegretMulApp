@@ -5,7 +5,7 @@
  * File: fft_bandpower_calculate.h
  *
  * MATLAB Coder version            : 3.0
- * C/C++ source code generated on  : 22-Feb-2016 19:46:56
+ * C/C++ source code generated on  : 22-Feb-2016 20:51:15
  */
 
 #ifndef __FFT_BANDPOWER_CALCULATE_H__

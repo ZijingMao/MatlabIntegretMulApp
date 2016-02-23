@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textViewMultiplyElement1;
     private TextView textViewMultiplyElement2;
     private TextView textViewOutput;
+    private TextView textViewPowerRatio;
 
     private double[][] multiplyDoubleElement1 = {{1, 2, 3}, {4, 5, 6}};
     private double[][] multiplyDoubleElement2 = {{1, 2}, {3, 4}, {5, 6}};
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         textViewMultiplyElement1 = (TextView) findViewById(R.id.textViewMul1);
         textViewMultiplyElement2 = (TextView) findViewById(R.id.textViewMul2);
         textViewOutput = (TextView) findViewById(R.id.textViewOutput);
+        textViewPowerRatio = (TextView) findViewById(R.id.textViewPowerRatio);
 
         //TODO replace the function to MATLAB multiplication function here
         multiplyOutput = matrixMultiplication(multiplyDoubleElement1, multiplyDoubleElement2);
@@ -73,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             randomNumbers[i] = n;
         }
         double Fs = 256;
-        double [] band = {5.0, 10.9};
+        double [] band = {0, 128};
         SWIGTYPE_p_double totalPower = BandpowerCalc.new_doubleArray(1);
         SWIGTYPE_p_double pBand = BandpowerCalc.new_doubleArray(1);
         BandpowerCalc.fft_bandpower_calculate(randomNumbers, Fs, band, totalPower, pBand);
@@ -81,7 +83,9 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, Arrays.toString(c));
         double totalPowerDouble = BandpowerCalc.doubleArray_getitem(totalPower, 0);
         double pBandDouble = BandpowerCalc.doubleArray_getitem(pBand, 0);
-        Log.d(TAG, Double.toString(totalPowerDouble/pBandDouble));
+        Log.d(TAG, Double.toString(pBandDouble/totalPowerDouble));
+
+        textViewPowerRatio.setText(Double.toString(pBandDouble/totalPowerDouble));
 
         textViewMultiplyElement1.setText(Arrays.deepToString(multiplyDoubleElement1));
         textViewMultiplyElement2.setText(Arrays.deepToString(multiplyDoubleElement2));
