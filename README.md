@@ -29,6 +29,7 @@ c = matrix_multiplication(a, b);
 ```
 
 Convert Matlab code to C code using coder (see ...app\src\main\jni\src\MatrixMultiplication)
+Remember to generate C code at the last step.
 
 **See Ref. [1-4]**
 
