@@ -1,4 +1,4 @@
-package com.example.mzj16_000.matlabintegretmulapp;
+package com.example.matlabintegretmulapp;
 
 import android.net.Uri;
 import android.os.Bundle;

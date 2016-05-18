@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.example.mzj16_000.matlabintegretmulapp"
+        applicationId "com.example.matlabintegretmulapp"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
