@@ -21,6 +21,7 @@ import java.util.Arrays;
 import java.util.Random;
 
 import com.matrixmultiplication.MatrixMultiplication;
+import com.getcoherence.GetCoherence;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -42,8 +43,15 @@ public class MainActivity extends AppCompatActivity {
 
     private double[] randomNumbers = new double[256];
 
-    private MatrixMultiplication mm;
-    private BandpowerCalc bc;
+    private double[] mscxy = new double[513];
+    private double[] frequency_list = new double[513];
+
+    private double[] x = new double[768];
+    private double[] y = new double[768];
+    private double fs = 256;
+
+//    private MatrixMultiplication mm;
+//    private BandpowerCalc bc;
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -75,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             randomNumbers[i] = n;
         }
         double Fs = 256;
-        double [] band = {0, 128};
+        double[] band = {0, 128};
         SWIGTYPE_p_double totalPower = BandpowerCalc.new_doubleArray(1);
         SWIGTYPE_p_double pBand = BandpowerCalc.new_doubleArray(1);
         BandpowerCalc.fft_bandpower_calculate(randomNumbers, Fs, band, totalPower, pBand);
@@ -84,13 +92,33 @@ public class MainActivity extends AppCompatActivity {
         //String totalPowerDoubleOld = Long.toHexString(SWIGTYPE_p_double.getCPtr(totalPower));
         double totalPowerDouble = BandpowerCalc.doubleArray_getitem(totalPower, 0);
         double pBandDouble = BandpowerCalc.doubleArray_getitem(pBand, 0);
-        Log.d(TAG, Double.toString(pBandDouble/totalPowerDouble));
+        Log.d(TAG, Double.toString(pBandDouble / totalPowerDouble));
 
-        textViewPowerRatio.setText(Double.toString(pBandDouble/totalPowerDouble));
+        textViewPowerRatio.setText(Double.toString(pBandDouble / totalPowerDouble));
 
         textViewMultiplyElement1.setText(Arrays.deepToString(multiplyDoubleElement1));
         textViewMultiplyElement2.setText(Arrays.deepToString(multiplyDoubleElement2));
         textViewOutput.setText(Arrays.toString(c));
+
+        // calculate the coherence
+
+//        for (int i = 0; i < x.length; i++) {
+//            int n = randSignal.nextInt(100);
+//            x[i] = n;
+//            n = randSignal.nextInt(100);
+//            y[i] = n;
+//        }
+//        GetCoherence.get_coherence(x, y, fs, mscxy, frequency_list);
+//        for (int idx = 0; idx < 768; idx++){
+//            Log.d(TAG, Double.toString(x[idx]));
+//        }
+//        Log.d(TAG, "====================");
+//        for (int idx = 0; idx < 768; idx++){
+//            Log.d(TAG, Double.toString(y[idx]));
+//        }
+//        Log.d(TAG, Arrays.toString(mscxy));
+
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -171,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app deep link URI is correct.
-                Uri.parse("android-app://com.example.mzj16_000.matlabintegretmulapp/http/host/path")
+                Uri.parse("android-app://com.example.matlabintegretmulapp/http/host/path")
         );
         AppIndex.AppIndexApi.start(client, viewAction);
     }
@@ -190,7 +218,7 @@ public class MainActivity extends AppCompatActivity {
                 // Otherwise, set the URL to null.
                 Uri.parse("http://host/path"),
                 // TODO: Make sure this auto-generated app deep link URI is correct.
-                Uri.parse("android-app://com.example.mzj16_000.matlabintegretmulapp/http/host/path")
+                Uri.parse("android-app://com.example.matlabintegretmulapp/http/host/path")
         );
         AppIndex.AppIndexApi.end(client, viewAction);
         client.disconnect();
@@ -199,6 +227,7 @@ public class MainActivity extends AppCompatActivity {
     static {
         System.loadLibrary("MatrixMultiplication");
         System.loadLibrary("BandpowerCalc");
+        System.loadLibrary("CoherenceCalc");
     }
 
 //    public interface dll extends Library {

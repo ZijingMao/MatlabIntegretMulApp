@@ -1,0 +1,18 @@
+<!-- saved from url=(0014)about:internet -->
+<pre class="code">
+<span class="srcline"><span class="lineno"><a href="46,1" id="srcline1"> 1</a></span><span class="line"><span class="keyword">function</span> <span class="var type1" id="S2T30U3">w</span> = def_hamming(<span class="var type2" id="S3T4V1U6">n</span>)</span></span>
+<span class="srcline"><span class="lineno"><a href="46,2" id="srcline2"> 2</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="46,3" id="srcline3"> 3</a></span><span class="line"><span class="keyword">if</span> ~rem(<span class="var type1" id="S3T4U12">n</span>,2)</span></span>
+<span class="srcline"><span class="lineno"><a href="46,4" id="srcline4"> 4</a></span><span class="line">    <span class="mxinfo " id="T4:U4"><span class="var type1" id="S5T4U16">m</span> = <span class="mxinfo " id="T4:U6"><span class="var type1" id="S3T4U18">n</span>/2</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="46,5" id="srcline5"> 5</a></span><span class="line">    <span class="mxinfo " id="T27:U8"><span class="var type1" id="S6T27U22">x</span> = <span class="mxinfo " id="T27:U10">(0:<span class="var type1" id="S5T4U29">m</span>-1)'/(<span class="var type1" id="S3T4U33">n</span>-1)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="46,6" id="srcline6"> 6</a></span><span class="line">    <span class="mxinfo " id="T27:U13"><span class="var type1" id="S2T27U37">w</span> = <span class="mxinfo " id="T27:U15">0.54 - 0.46*cos(2*pi*<span class="var type1" id="S6T27U49">x</span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="46,7" id="srcline7"> 7</a></span><span class="line">    <span class="mxinfo " id="T30:U17"><span class="var type1" id="S2T30U52">w</span> = <span class="mxinfo " id="T30:U19">[<span class="var type1" id="S2T27U55">w</span>; <span class="var type1" id="S2T27U58">w</span>(end:-1:1)]</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="46,8" id="srcline8"> 8</a></span><span class="line"><span class="keyword">else</span> </span></span>
+<span class="srcline"><span class="lineno"><a href="46,9" id="srcline9"> 9</a></span><span class="line">    <span class="var type0" id="S5T0U69">m</span> = (<span class="var type0" id="S3T0U73">n</span>+1)/2;</span></span>
+<span class="srcline"><span class="lineno"><a href="46,10" id="srcline10">10</a></span><span class="line">    <span class="var type0" id="S6T0U78">x</span> = (0:<span class="var type0" id="S5T0U85">m</span>-1)'/(<span class="var type0" id="S3T0U89">n</span>-1);</span></span>
+<span class="srcline"><span class="lineno"><a href="46,11" id="srcline11">11</a></span><span class="line">    <span class="var type0" id="S2T0U93">w</span> = 0.54 - 0.46*cos(2*pi*<span class="var type0" id="S6T0U105">x</span>);</span></span>
+<span class="srcline"><span class="lineno"><a href="46,12" id="srcline12">12</a></span><span class="line">    <span class="var type0" id="S2T0U108">w</span> = [<span class="var type0" id="S2T0U111">w</span>; <span class="var type0" id="S2T0U114">w</span>(end-1:-1:1)];</span></span>
+<span class="srcline"><span class="lineno"><a href="46,13" id="srcline13">13</a></span><span class="line"><span class="keyword">end</span></span></span>
+<span class="srcline"><span class="lineno"><a href="46,14" id="srcline14">14</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="46,15" id="srcline15">15</a></span><span class="line"><span class="keyword">end</span></span></span>
+</pre>

@@ -1,0 +1,19 @@
+<!-- saved from url=(0014)about:internet -->
+<pre class="code">
+<span class="srcline"><span class="lineno"><a href="67,1" id="srcline1"> 1</a></span><span class="line"><span class="keyword">function</span> [<span class="var type1" id="S2T38U3">P</span>] = compute_fft(<span class="var type1" id="S3T41U6">x</span>,<span class="var type1" id="S4T31U7">win</span>, <span class="var type2" id="S5T4V2U8">NFFT</span>)</span></span>
+<span class="srcline"><span class="lineno"><a href="67,2" id="srcline2"> 2</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="67,3" id="srcline3"> 3</a></span><span class="line"><span class="comment">% make it to column</span></span></span>
+<span class="srcline"><span class="lineno"><a href="67,4" id="srcline4"> 4</a></span><span class="line"><span class="mxinfo " id="T42:U5"><span class="var type1" id="S3T42U11">x</span> = <span class="mxinfo " id="T42:U7"><span class="var type1" id="S3T41U13">x</span>(:)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="67,5" id="srcline5"> 5</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="67,6" id="srcline6"> 6</a></span><span class="line"><span class="comment">% Window the data</span></span></span>
+<span class="srcline"><span class="lineno"><a href="67,7" id="srcline7"> 7</a></span><span class="line"><span class="mxinfo " id="T31:U9"><span class="var type1" id="S6T31U17">xw</span> = <span class="mxinfo " id="T31:U11"><span class="var type1" id="S3T42U19">x</span>.*<span class="var type1" id="S4T31U20">win</span></span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="67,8" id="srcline8"> 8</a></span><span class="line"><span class="comment">% compensates for the power of the window.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="67,9" id="srcline9"> 9</a></span><span class="line"><span class="mxinfo " id="T4:U14"><span class="var type1" id="S7T4U23">U</span> = <span class="mxinfo " id="T4:U16"><span class="mxinfo " id="T30:U17"><span class="var type1" id="S4T31U26">win</span>'</span>*<span class="var type1" id="S4T31U27">win</span></span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="67,10" id="srcline10">10</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="67,11" id="srcline11">11</a></span><span class="line"><span class="comment">% fft the data</span></span></span>
+<span class="srcline"><span class="lineno"><a href="67,12" id="srcline12">12</a></span><span class="line"><span class="mxinfo " id="T38:U20">[<span class="var type1" id="S8T38U31">Xx</span>] = <span class="mxinfo " id="T38:U22">fft(<span class="var type1" id="S6T31U34">xw</span>,<span class="var type1" id="S5T4U35">NFFT</span>)</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="67,13" id="srcline13">13</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="67,14" id="srcline14">14</a></span><span class="line"><span class="mxinfo " id="T38:U25"><span class="var type1" id="S2T38U38">P</span> = <span class="mxinfo " id="T38:U27"><span class="mxinfo " id="T38:U28"><span class="var type1" id="S8T38U41">Xx</span>.*<span class="mxinfo " id="T38:U30">conj(<span class="var type1" id="S8T38U44">Xx</span>)</span></span>/<span class="var type1" id="S7T4U45">U</span></span></span>;      <span class="comment">% Auto spectrum.</span></span></span>
+<span class="srcline"><span class="lineno"><a href="67,15" id="srcline15">15</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="67,16" id="srcline16">16</a></span><span class="line"><span class="keyword">end</span></span></span>
+</pre>

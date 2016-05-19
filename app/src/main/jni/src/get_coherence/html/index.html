@@ -1,0 +1,526 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Code Generation Report</title>
+<link rel="stylesheet" type="text/css" href="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\eml_report.css" />
+<link rel="stylesheet" type="text/css" href="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\ui.resizable.css" />
+<link rel="stylesheet" type="text/css" href="file:///E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\Coherence\\codegen\\lib\\get_coherence\\html\\index.css" />
+
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\jquery-ui-1.7.custom.min.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\jquery.tablesorter.mod.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\jquery.hotkeys-0.7.8.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\eml_report_interactions.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\eml_report_layout.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\rtw\\rtw\\+coder\\+report\\resources\\rtwshrink.js"></script>
+<script type="text/javascript">
+var localizedMessages = {
+    callSelectPrompt: "Select a function call:",
+    callSelectSource: "Calls from this function",
+    callSelectTarget: "Calls to this function",
+    infoForExpression: "Information for the selected expression:",
+    infoForVarType: "Information for the selected variable:",
+    infoForVarConst: "Information for the selected compile-time constant:",
+    infoForVarNone: "This variable does not have information associated with it.",
+    infoForFilter: "Matched {0}/{1} functions, {2}/{3} methods",
+    autoExtrinsicCall: "Only supported within the MATLAB environment."
+};
+var keyBindings = {
+        selectMCodeTab: "Ctrl+m",
+    selectCallStackTab: "Ctrl+k",
+        selectCCodeTab: "Ctrl+c",
+       selectReportTab: "Ctrl+r",
+     selectCenterPanel: "Ctrl+w",
+      selectSummaryTab: "Ctrl+s",
+     selectMessagesTab: "Ctrl+a",
+    selectWatchListTab: "Ctrl+v",
+     selectBuildLogTab: "Ctrl+t"
+};
+var functionInfoTable = {
+ MATLABcode1: "get_coherence1_mcode.html",
+ fpath1: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/get_coherence.m",
+ lines1: [1, 1, 32],
+ watch1: "get_coherence1_watch.html",
+ title1: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\Coherence\\get_coherence.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\Coherence\\get_coherence.m')\">get_coherence</a></span>",
+ tcall1: [  ],
+ scall1: [ [ "From line 9 to pwelch_trans", "218#srcline1" ], [ "From line 11 to pwelch_trans", "218#srcline1" ], [ "From line 13 to cpsd_trans", "248#srcline1" ] ],
+ MATLABcode93: "def_hamming93_mcode.html",
+ fpath93: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/def_hamming.m",
+ lines93: [1, 1, 16],
+ watch93: "def_hamming93_watch.html",
+ title93: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\Coherence\\def_hamming.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\Coherence\\def_hamming.m')\">def_hamming</a></span>",
+ tcall93: [ [ "From pwelch_trans line 9", "218#F93N7:B48" ], [ "From cpsd_trans line 13", "248#F93N7:B64" ] ],
+ scall93: [  ],
+ MATLABcode191: "compute_fft191_mcode.html",
+ fpath191: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/compute_fft.m",
+ lines191: [1, 1, 17],
+ watch191: "compute_fft191_watch.html",
+ title191: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\Coherence\\compute_fft.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\Coherence\\compute_fft.m')\">compute_fft</a></span>",
+ tcall191: [ [ "From pwelch_trans line 24", "218#F191N4:B124" ] ],
+ scall191: [  ],
+ MATLABcode217: "compute_psd217_mcode.html",
+ fpath217: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/compute_psd.m",
+ lines217: [1, 1, 13],
+ watch217: "compute_psd217_watch.html",
+ title217: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\Coherence\\compute_psd.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\Coherence\\compute_psd.m')\">compute_psd</a></span>",
+ tcall217: [ [ "From pwelch_trans line 30", "218#F217N5:B154" ], [ "From cpsd_trans line 34", "248#F217N5:B179" ] ],
+ scall217: [  ],
+ MATLABcode218: "pwelch_trans218_mcode.html",
+ fpath218: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/pwelch_trans.m",
+ lines218: [1, 1, 33],
+ watch218: "pwelch_trans218_watch.html",
+ title218: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\Coherence\\pwelch_trans.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\Coherence\\pwelch_trans.m')\">pwelch_trans</a></span>",
+ tcall218: [ [ "From get_coherence line 9", "1#F218N9:B38" ], [ "From get_coherence line 11", "1#F218N9:B48" ] ],
+ scall218: [ [ "From line 9 to def_hamming", "93#srcline1" ], [ "From line 24 to compute_fft", "191#srcline1" ], [ "From line 30 to compute_psd", "217#srcline1" ] ],
+ MATLABcode221: "compute_cross_fft221_mcode.html",
+ fpath221: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/compute_cross_fft.m",
+ lines221: [1, 1, 20],
+ watch221: "compute_cross_fft221_watch.html",
+ title221: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\Coherence\\compute_cross_fft.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\Coherence\\compute_cross_fft.m')\">compute_cross_fft</a></span>",
+ tcall221: [ [ "From cpsd_trans line 28", "248#F221N3:B140" ] ],
+ scall221: [  ],
+ MATLABcode248: "cpsd_trans248_mcode.html",
+ fpath248: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/cpsd_trans.m",
+ lines248: [1, 1, 40],
+ watch248: "cpsd_trans248_watch.html",
+ title248: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\Coherence\\cpsd_trans.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\Coherence\\cpsd_trans.m')\">cpsd_trans</a></span>",
+ tcall248: [ [ "From get_coherence line 13", "1#F248N6:B58" ] ],
+ scall248: [ [ "From line 13 to def_hamming", "93#srcline1" ], [ "From line 28 to compute_cross_fft", "221#srcline1" ], [ "From line 34 to compute_psd", "217#srcline1" ] ],
+ rootFcnID: "1",
+ firstPage: "get_coherence_c.html",
+ htmlRoot: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing%20Mao/Compile/Coherence/codegen/lib/get_coherence/html/"
+};
+var scriptInfoTable = {
+ fpath1: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/get_coherence.m",
+ fpath2: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/length.m",
+ fpath3: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/isBuiltInNumeric.m",
+ fpath4: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/abs.m",
+ fpath5: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/isinf.m",
+ fpath6: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/isnan.m",
+ fpath7: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/isfinite.m",
+ fpath8: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/log2.m",
+ fpath9: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/nextpow2.m",
+ fpath10: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/applyScalarFunctionInPlace.m",
+ fpath11: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/nextpow2.m",
+ fpath12: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/ismatrix.m",
+ fpath13: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/scalarEg.m",
+ fpath14: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/fixedpoint/isnumerictype.m",
+ fpath15: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/fixedpoint/isfimath.m",
+ fpath16: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/fixedpoint/isfi.m",
+ fpath17: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/intmax.m",
+ fpath18: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/intmin.m",
+ fpath19: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/eml/eml_int_forloop_overflow_check.m",
+ fpath20: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/scalexpAllocNoCheck.m",
+ fpath21: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/scalexpAlloc.m",
+ fpath22: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/power.m",
+ fpath23: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/applyScalarFunction.m",
+ fpath24: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/floor.m",
+ fpath25: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/floor.m",
+ fpath26: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/error.m",
+ fpath27: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/mpower.m",
+ fpath28: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/scalexpCompatible.m",
+ fpath29: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/div.m",
+ fpath30: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/rdivide.m",
+ fpath31: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/mrdivide.p",
+ fpath32: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/fix.m",
+ fpath33: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/fix.m",
+ fpath34: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/rem.m",
+ fpath35: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/rem.m",
+ fpath36: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/floatModel.m",
+ fpath37: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/flintmax.m",
+ fpath38: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/abs.m",
+ fpath39: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/colon.m",
+ fpath40: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/private/eml_realmax.m",
+ fpath41: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/realmax.m",
+ fpath42: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/eml_mtimes_helper.m",
+ fpath43: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/useParforConst.m",
+ fpath44: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/cos.m",
+ fpath45: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/cos.m",
+ fpath46: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/def_hamming.m",
+ fpath47: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/linspace.m",
+ fpath48: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+blas/use_refblas.m",
+ fpath49: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/constNonSingletonDim.m",
+ fpath50: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/unsignedClass.m",
+ fpath51: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/sizeIsPow2.m",
+ fpath52: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/private/eml_fft.m",
+ fpath53: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/minOrMax.m",
+ fpath54: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/min.m",
+ fpath55: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/max.m",
+ fpath56: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/indexDivide.m",
+ fpath57: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/sin.m",
+ fpath58: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/sin.m",
+ fpath59: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/fft.m",
+ fpath60: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/compute_fft.m",
+ fpath61: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/compute_psd.m",
+ fpath62: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/pwelch_trans.m",
+ fpath63: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/compute_cross_fft.m",
+ fpath64: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/xdlapy2.m",
+ fpath65: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/Coherence/cpsd_trans.m",
+ fpath66: "E:/Program Files/MATLAB/R2015b/toolbox/shared/coder/coder/+coder/+internal/narginchk.m",
+ fpath67: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/private/eml_isequal_core.m",
+ fpath68: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/isequal.m"
+};
+</script>
+</head>
+<body>
+
+<div class="west">
+<ul class="ui-tabs-nav">
+<li class="ui-tabs-nav-item ui-tabs-selected"><span class="tab-link" id="MATLABcode"><span>MATLAB code</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="callstack"><span>Call stack</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="ccode"><span>C code</span></span></li>
+</ul>
+<div id="MATLABcodebody" class="ui-tabs-panel">
+<!-- Begin Filter -->
+<div class="grayline methodset" onclick="filterClick(event);">
+<a class="collapsed">Filter</a>
+</div>
+<div id="filterbody" class="hidden">
+<table class="myfunc-filter-tbl">
+<tr>
+<td title="Use this filter to display only functions and methods that contain variables or expressions with the specified attributes." colspan="2" class="checkbox">
+<div class="myfunc-filterby-chk"><input type="checkbox" class="filterenable" />
+<div class="filter-enable-lbl">Filter functions and methods</div></div></td></tr><tr>
+<td class="label"><div class="myfunc-filterby-lbl">Filter by:</div></td>
+<td class="select">
+<div class="filters">
+<select class="myfunc-filterby">
+<option id="size">Size</option>
+<option id="complex">Complexity</option>
+<option id="class">Class</option>
+</select>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="label"><div class="myfunc-filterstr-lbl">Filter:</div></td>
+<td class="input"><div>
+
+<div class="size">
+<select class="myfunc-filter size">
+<option value="1 93 191 217 218 221 248">1 x 1</option>
+<option value="1 217 218 248">1 x 513</option>
+<option value="1 218 248">1 x 768</option>
+<option value="218 248">1 x 9</option>
+<option value="191 221">1 x <b>:</b>765</option>
+<option value="191 217 218 221 248">1024 x 1</option>
+<option value="93 191 218 221 248">170 x 1</option>
+<option value="1 217 218 248">513 x 1</option>
+<option value="93">85 x 1</option>
+<option value="191 221"><b>:</b>765 x 1</option>
+</select>
+</div>
+
+<div class="complex">
+<select class="myfunc-filter complex">
+<option value="1 191 217 218 221 248">Complex values</option>
+<option value="1 93 191 217 218 221 248">Real values</option>
+</select>
+</div>
+<!-- Begin Class Filter -->
+<div class="class">
+<select class="myfunc-filter class">
+<option value="1 93 191 217 218 221 248">double</option>
+</select>
+</div>
+<!-- End Class Filter -->
+</div>
+</td>
+</tr>
+</table>
+<div class="myfunc-count"></div>
+</div>
+<!-- End Filter -->
+<div class="grayline methodset" onmouseover="callTreeMouseOver(event);" onmouseout="callTreeMouseOut(event);" onclick="functionSetClick(event);">
+<a class="expanded">Functions</a>
+</div>
+<!-- Begin Function Tree -->
+<div id="functiontreebody">
+<div class="functionwrapper" onmouseover="callTreeMouseOver(event);" onmouseout="callTreeMouseOut(event);" onclick="functionTreeClick(event);">
+<ol class="tree">
+<!-- Begin Function Tree Roots -->
+<li class="leaf  passed"><a href="#" class="fcn " id="F221N3:F1">compute_cross_fft</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F191N4:F2">compute_fft</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F217N5:F3">compute_psd</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F248N6:F4">cpsd_trans</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F93N7:F5">def_hamming</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F1N8:F6">get_coherence</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F218N9:F7">pwelch_trans</a></li>
+<!-- End Function Tree Roots -->
+</ol>
+<!-- Function Tree Nodes -->
+<div class="functiontreenodes hidden">
+</div>
+<!-- End Function Tree Nodes -->
+</div>
+</div>
+<!-- End Function Tree -->
+</div>
+<!-- Begin Call Tree -->
+<div id="callstackbody" class="ui-tabs-panel hidden">
+<div class="treewrapper" onmouseover="callTreeMouseOver(event);" onmouseout="callTreeMouseOut(event);" onclick="callTreeClick(event);">
+<ol class="tree">
+<!-- Call Tree Root -->
+<li class="node collapsed passed"><a href="#" class="fcn " id="F1N8:L1">get_coherence</a>
+<ul>
+<li class="node collapsed passed"><a href="#" class="fcn " id="F218N9:L2">pwelch_trans</a></li>
+<li class="node collapsed passed"><a href="#" class="fcn " id="F248N6:L3">cpsd_trans</a></li>
+</ul>
+</li>
+</ol>
+<!-- Call Tree Nodes -->
+<div class="callstacknodes hidden">
+<ol class="callstacknode" id="callstacknode1">
+
+<li class="node collapsed passed"><a href="#" class="fcn " id="F1N8:l1">get_coherence</a>
+<ul>
+<li class="node collapsed passed"><a href="#" class="fcn " id="F218N9:l2">pwelch_trans</a></li>
+<li class="node collapsed passed"><a href="#" class="fcn " id="F248N6:l3">cpsd_trans</a></li>
+</ul>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode93">
+
+<li class="leaf passed"><a href="#" class="fcn " id="F93N7:l4">def_hamming</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode191">
+
+<li class="leaf passed"><a href="#" class="fcn " id="F191N4:l5">compute_fft</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode217">
+
+<li class="leaf passed"><a href="#" class="fcn " id="F217N5:l6">compute_psd</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode218">
+
+<li class="node collapsed passed"><a href="#" class="fcn " id="F218N9:l7">pwelch_trans</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn " id="F93N7:l8">def_hamming</a></li>
+<li class="leaf passed"><a href="#" class="fcn " id="F191N4:l9">compute_fft</a></li>
+<li class="leaf passed"><a href="#" class="fcn " id="F217N5:l10">compute_psd</a></li>
+</ul>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode221">
+
+<li class="leaf passed"><a href="#" class="fcn " id="F221N3:l11">compute_cross_fft</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode248">
+
+<li class="node collapsed passed"><a href="#" class="fcn " id="F248N6:l12">cpsd_trans</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn " id="F93N7:l13">def_hamming</a></li>
+<li class="leaf passed"><a href="#" class="fcn " id="F221N3:l14">compute_cross_fft</a></li>
+<li class="leaf passed"><a href="#" class="fcn " id="F217N5:l15">compute_psd</a></li>
+</ul>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<!-- End Call Tree -->
+<!-- Begin C Code -->
+<div id="ccodebody" class="ui-tabs-panel hidden">
+
+<table class="myfunc-list" cellspacing="0" cellpadding="0" onclick="reportFileClick(event);">
+<tbody>
+<tr class="report" id="metrics.html"><td class="report"><a href="#">Static Code Metrics Report</a></td></tr>
+</tbody>
+</table><div class="grayline methodset" onclick="ccodeClick(event,1);">
+<a class="expanded">Target Source Files</a>
+</div>
+<!-- Begin C Code List -->
+<div id="ccodelistbody1" class="visible">
+<table class="myfunc-list" cellspacing="0" cellpadding="0" onclick="cFileClick(event);">
+<tbody>
+<tr class="ccode" id="abs1_c.html"><td class="ccode"><a href="#">abs1.c</a></td></tr>
+<tr class="ccode" id="abs1_h.html"><td class="ccode"><a href="#">abs1.h</a></td></tr>
+<tr class="ccode" id="compute_cross_fft_c.html"><td class="ccode"><a href="#">compute_cross_fft.c</a></td></tr>
+<tr class="ccode" id="compute_cross_fft_h.html"><td class="ccode"><a href="#">compute_cross_fft.h</a></td></tr>
+<tr class="ccode" id="compute_fft_c.html"><td class="ccode"><a href="#">compute_fft.c</a></td></tr>
+<tr class="ccode" id="compute_fft_h.html"><td class="ccode"><a href="#">compute_fft.h</a></td></tr>
+<tr class="ccode" id="compute_psd_c.html"><td class="ccode"><a href="#">compute_psd.c</a></td></tr>
+<tr class="ccode" id="compute_psd_h.html"><td class="ccode"><a href="#">compute_psd.h</a></td></tr>
+<tr class="ccode" id="cpsd_trans_c.html"><td class="ccode"><a href="#">cpsd_trans.c</a></td></tr>
+<tr class="ccode" id="cpsd_trans_h.html"><td class="ccode"><a href="#">cpsd_trans.h</a></td></tr>
+<tr class="ccode" id="fft_c.html"><td class="ccode"><a href="#">fft.c</a></td></tr>
+<tr class="ccode" id="fft_h.html"><td class="ccode"><a href="#">fft.h</a></td></tr>
+<tr class="ccode" id="get_coherence_c.html"><td class="ccode"><a href="#">get_coherence.c</a></td></tr>
+<tr class="ccode" id="get_coherence_h.html"><td class="ccode"><a href="#">get_coherence.h</a></td></tr>
+<tr class="ccode" id="get_coherence_initialize_c.html"><td class="ccode"><a href="#">get_coherence_initialize.c</a></td></tr>
+<tr class="ccode" id="get_coherence_initialize_h.html"><td class="ccode"><a href="#">get_coherence_initialize.h</a></td></tr>
+<tr class="ccode" id="get_coherence_terminate_c.html"><td class="ccode"><a href="#">get_coherence_terminate.c</a></td></tr>
+<tr class="ccode" id="get_coherence_terminate_h.html"><td class="ccode"><a href="#">get_coherence_terminate.h</a></td></tr>
+<tr class="ccode" id="get_coherence_types_h.html"><td class="ccode"><a href="#">get_coherence_types.h</a></td></tr>
+<tr class="ccode" id="linspace_c.html"><td class="ccode"><a href="#">linspace.c</a></td></tr>
+<tr class="ccode" id="linspace_h.html"><td class="ccode"><a href="#">linspace.h</a></td></tr>
+<tr class="ccode" id="power_c.html"><td class="ccode"><a href="#">power.c</a></td></tr>
+<tr class="ccode" id="power_h.html"><td class="ccode"><a href="#">power.h</a></td></tr>
+<tr class="ccode" id="pwelch_trans_c.html"><td class="ccode"><a href="#">pwelch_trans.c</a></td></tr>
+<tr class="ccode" id="pwelch_trans_h.html"><td class="ccode"><a href="#">pwelch_trans.h</a></td></tr>
+<tr class="ccode" id="rdivide_c.html"><td class="ccode"><a href="#">rdivide.c</a></td></tr>
+<tr class="ccode" id="rdivide_h.html"><td class="ccode"><a href="#">rdivide.h</a></td></tr>
+<tr class="ccode" id="rtGetInf_c.html"><td class="ccode"><a href="#">rtGetInf.c</a></td></tr>
+<tr class="ccode" id="rtGetInf_h.html"><td class="ccode"><a href="#">rtGetInf.h</a></td></tr>
+<tr class="ccode" id="rtGetNaN_c.html"><td class="ccode"><a href="#">rtGetNaN.c</a></td></tr>
+<tr class="ccode" id="rtGetNaN_h.html"><td class="ccode"><a href="#">rtGetNaN.h</a></td></tr>
+<tr class="ccode" id="rt_nonfinite_c.html"><td class="ccode"><a href="#">rt_nonfinite.c</a></td></tr>
+<tr class="ccode" id="rt_nonfinite_h.html"><td class="ccode"><a href="#">rt_nonfinite.h</a></td></tr>
+<tr class="ccode" id="rtwtypes_h.html"><td class="ccode"><a href="#">rtwtypes.h</a></td></tr>
+</tbody>
+</table>
+</div>
+<!-- End C Code List -->
+</div>
+<!-- End C Code -->
+</div>
+<!-- Tooltips -->
+<div class="aux hidden">
+<div class="tooltips">
+<div class="tooltip" id="TT1"><table class="tooltip"><tr><th>Size</th><td>513 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT2"><table class="tooltip"><tr><th>Size</th><td>1 x 513</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT3"><table class="tooltip"><tr><th>Size</th><td>1 x 768</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT4"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT5"><table class="tooltip"><tr><th>Size</th><td>513 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>Yes</td></tr></table></div>
+<div class="tooltip" id="TT6"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT7"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>logical</td></tr></table></div>
+<div class="tooltip" id="TT8"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT9"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>int32</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT10"><table class="tooltip"><tr><th>Size</th><td>1 x 8</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT11"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT12"><table class="tooltip"><tr><th>Size</th><td>1 x 0</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT13"><table class="tooltip"><tr><th>Size</th><td>1 x 23</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT14"><table class="tooltip"><tr><th>Size</th><td>1 x 5</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT15"><table class="tooltip"><tr><th>Size</th><td>1 x 6</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT16"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT17"><table class="tooltip"><tr><th>Size</th><td>1 x 14</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT18"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT19"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT20"><table class="tooltip"><tr><th>Size</th><td>1 x 31</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT21"><table class="tooltip"><tr><th>Size</th><td>1 x 3</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT22"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT23"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT24"><table class="tooltip"><tr><th>Size</th><td>1 x 3</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT25"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT26"><table class="tooltip"><tr><th>Size</th><td>1 x 85</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT27"><table class="tooltip"><tr><th>Size</th><td>85 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT28"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>mxArray</td></tr></table></div>
+<div class="tooltip" id="TT29"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT30"><table class="tooltip"><tr><th>Size</th><td>170 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT31"><table class="tooltip"><tr><th>Size</th><td>1 x 9</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT32"><table class="tooltip"><tr><th>Size</th><td>1 x 170</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT33"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT34"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT35"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT36"><table class="tooltip"><tr><th>Size</th><td>1 x 257</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT37"><table class="tooltip"><tr><th>Size</th><td>1024 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>Yes</td></tr></table></div>
+<div class="tooltip" id="TT38"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT39"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>Yes</td></tr></table></div>
+<div class="tooltip" id="TT40"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>765</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT41"><table class="tooltip"><tr><th>Size</th><td><b>:</b>765 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT42"><table class="tooltip"><tr><th>Size</th><td>511 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>Yes</td></tr></table></div>
+<div class="tooltip" id="TT43"><table class="tooltip"><tr><th>Size</th><td>511 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT44"><table class="tooltip"><tr><th>Size</th><td>1024 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT45"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>765</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT46"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT47"><table class="tooltip"><tr><th>Size</th><td>1 x 7</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="V1"><table class="tooltip"><tr><th>Value</th><td>   170</br></td></tr></table></div>
+<div class="tooltip" id="V2"><table class="tooltip"><tr><th>Value</th><td>        1024</br></td></tr></table></div>
+</div>
+</div>
+<!-- End Tooltips -->
+
+<div class="south">
+<ul class="ui-tabs-nav">
+<li class="ui-tabs-nav-item ui-tabs-selected"><span class="tab-link" id="summary"><span>Summary</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="messages"><span>All Messages (0)</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="watchlist"><span>Variables</span></span></li>
+<li class="ui-tabs-nav-item hidden"><span class="tab-link" id="watchload"><span>Variables</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="buildlog1"><span>Target Build Log</span></span></li>
+</ul>
+
+<!-- Compilation Summary -->
+<div id="summarybody" class="ui-tabs-panel">
+<table cellpadding="1" cellspacing="4">
+<tr><td>C source code generated on:</td><td>18-May-2016 16:04:57</td></tr>
+<tr><td>Coding target:</td><td>Static Library</td></tr>
+<tr><td>Number of errors:</td><td><a href="javascript:selectMessagesTab();">0</a></td></tr>
+<tr><td>Number of warnings:</td><td><a href="javascript:selectMessagesTab();">0</a></td></tr>
+<tr><td>Number of notices:</td><td><a href="javascript:selectMessagesTab();">0</a></td></tr>
+</table>
+<p/><p/><table>
+<tr><td><b>Tell Us What You Think</b></td></tr>
+<tr><td>We value your feedback. Please take a few minutes to answer this short questionnaire regarding the Code Generation Report.</td></tr>
+<tr><td><a href="matlab: web('http://www.customersat3.com/TakeSurvey.asp?si=ELu7GTnTYtk%3D','-browser');">&gt;&gt;Provide Feedback</a></td></tr>
+</table>
+</div>
+
+<!-- Message Table -->
+<div id="messagesbody" class="ui-tabs-panel hidden">
+<div>
+<div class="msgsuccess">Code generation successful. Click here to <a href="javaScript:selectSummaryTab();">view summary</a>.</div>
+</div>
+</div>
+<!-- Watchlist Table -->
+<div id="watchlistbody" class="ui-tabs-panel hidden">
+</div>
+<div id="watchloadbody" class="ui-tabs-panel hidden">
+Loading Variables table ...
+</div>
+
+<!-- Target Build Log -->
+<div id="buildlog1body" class="ui-tabs-panel hidden">
+<div class="grayline"></div>
+<table cellpadding="4" cellspacing="1"><tr>
+<td align="left" class="td-linebottomrt-gray" colspan="2">Build Parameters</td>
+</tr>
+<tr><td align="left" valign="top" class="td-linebottomrt">Build directory</td>
+<td align="left" valign="top" class="td-linebottomrt-link"><a href="matlab: cd('E:\ProgramData\Dropbox\EEGRoomPC\Zijing Mao\Compile\Coherence\codegen\lib\get_coherence')">E:\ProgramData\Dropbox\EEGRoomPC\Zijing Mao\Compile\Coherence\codegen\lib\get_coherence</a></td></tr>
+<tr><td align="left" valign="top" class="td-linebottomrt">Make wrapper</td>
+<td align="left" valign="top" class="td-linebottomrt-link">.\get_coherence_rtw.bat</td></tr>
+<tr><td align="left" valign="top" class="td-linebottomrt">Make command</td>
+<td align="left" valign="top" class="td-linebottomrt-link">E:\PROGRA~3\MATLAB\R2015b\bin\win64\gmake -f get_coherence_rtw.mk all</td></tr>
+</table>
+<br/>
+<table border="1" cellpadding="4" cellspacing="1" width="100%">
+<tr><td align="left" class="td-linebottomrt-gray">Build Log</td></tr>
+<tr><td valign="top" class="td-script">
+<pre>
+<span class="td-line-number">    1   </span><span class="td-line-normal">Compilation suppressed: generating code only.</span>
+</pre>
+</td></tr></table>
+
+</div>
+</div>
+<!-- Begin MATLAB Code Panel -->
+<div class="center">
+<div class="center-title">
+<div class="ui-tabs-nav-item ui-tabs-selected">
+<span class="functiontitle">
+</span>
+<!-- Begin Call Sites -->
+<span id="callsiteselecttable" class="call-sites-tbl">
+<span id="callsiteselectlabel" class="filtered">Calls:</span>
+<select id="callsiteselect" onchange="callSiteChange(event)">
+<option value="callsiteprompt">Select a function call:</option>
+</select>
+</span>
+<!-- End Call Sites -->
+</div>
+</div>
+<div class="ui-tabs-panel">
+<div class="code" onmouseover="mcodeMouseOver(event);" onmouseout="mcodeMouseOut(event);"onclick="mcodeClick(event);">
+</div>
+</div>
+</div>
+<!-- End MATLAB Code Panel -->
+</body>
+</html>
