@@ -1,0 +1,521 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Code Generation Report</title>
+<link rel="stylesheet" type="text/css" href="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\eml_report.css" />
+<link rel="stylesheet" type="text/css" href="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\ui.resizable.css" />
+<link rel="stylesheet" type="text/css" href="file:///E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\HighPassFilter\\codegen\\lib\\fir1_window\\html\\index.css" />
+
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\jquery-ui-1.7.custom.min.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\jquery.tablesorter.mod.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\jQuery\\jquery.hotkeys-0.7.8.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\eml_report_interactions.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\coder\\coder\\resources\\eml_report_layout.js"></script>
+<script type="text/javascript" src="file:///E:\\Program Files\\MATLAB\\R2015b\\toolbox\\rtw\\rtw\\+coder\\+report\\resources\\rtwshrink.js"></script>
+<script type="text/javascript">
+var localizedMessages = {
+    callSelectPrompt: "Select a function call:",
+    callSelectSource: "Calls from this function",
+    callSelectTarget: "Calls to this function",
+    infoForExpression: "Information for the selected expression:",
+    infoForVarType: "Information for the selected variable:",
+    infoForVarConst: "Information for the selected compile-time constant:",
+    infoForVarNone: "This variable does not have information associated with it.",
+    infoForFilter: "Matched {0}/{1} functions, {2}/{3} methods",
+    autoExtrinsicCall: "Only supported within the MATLAB environment."
+};
+var keyBindings = {
+        selectMCodeTab: "Ctrl+m",
+    selectCallStackTab: "Ctrl+k",
+        selectCCodeTab: "Ctrl+c",
+       selectReportTab: "Ctrl+r",
+     selectCenterPanel: "Ctrl+w",
+      selectSummaryTab: "Ctrl+s",
+     selectMessagesTab: "Ctrl+a",
+    selectWatchListTab: "Ctrl+v",
+     selectBuildLogTab: "Ctrl+t"
+};
+var functionInfoTable = {
+ MATLABcode1: "fir1_window1_mcode.html",
+ fpath1: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fir1_window.m",
+ lines1: [1, 1, 8],
+ watch1: "fir1_window1_watch.html",
+ title1: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\HighPassFilter\\fir1_window.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\HighPassFilter\\fir1_window.m')\">fir1_window</a></span>",
+ tcall1: [  ],
+ scall1: [ [ "From line 3 to fir1_window_highpass", "283#srcline1" ], [ "From line 4 to fir1_window_lowpass", "284#srcline1" ] ],
+ MATLABcode110: "hamming110_mcode.html",
+ fpath110: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/hamming.m",
+ lines110: [1, 1, 7],
+ watch110: "hamming110_watch.html",
+ title110: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\HighPassFilter\\hamming.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\HighPassFilter\\hamming.m')\">hamming</a></span>",
+ tcall110: [ [ "From fir1_window_highpass line 16", "283#F110N9:B112" ], [ "From fir1_window_lowpass line 17", "284#F110N9:B124" ] ],
+ scall110: [  ],
+ MATLABcode163: "fkernel163_mcode.html",
+ fpath163: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fkernel.m",
+ lines163: [1, 1, 11],
+ watch163: "fkernel163_watch.html",
+ title163: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\HighPassFilter\\fkernel.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\HighPassFilter\\fkernel.m')\">fkernel</a></span>",
+ tcall163: [ [ "From fir1_window_highpass line 23", "283#F163N7:B147" ], [ "From fir1_window_lowpass line 24", "284#F163N7:B159" ] ],
+ scall163: [  ],
+ MATLABcode164: "fspecinv164_mcode.html",
+ fpath164: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fspecinv.m",
+ lines164: [1, 1, 6],
+ watch164: "fspecinv164_watch.html",
+ title164: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\HighPassFilter\\fspecinv.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\HighPassFilter\\fspecinv.m')\">fspecinv</a></span>",
+ tcall164: [ [ "From fir1_window_highpass line 24", "283#F164N8:B157" ] ],
+ scall164: [  ],
+ MATLABcode282: "firfilter282_mcode.html",
+ fpath282: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/firfilter.m",
+ lines282: [1, 1, 31],
+ watch282: "firfilter282_watch.html",
+ title282: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\HighPassFilter\\firfilter.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\HighPassFilter\\firfilter.m')\">firfilter</a></span>",
+ tcall282: [ [ "From fir1_window_highpass line 27", "283#F282N6:B167" ], [ "From fir1_window_lowpass line 27", "284#F282N6:B173" ] ],
+ scall282: [  ],
+ MATLABcode283: "fir1_window_highpass283_mcode.html",
+ fpath283: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fir1_window_highpass.m",
+ lines283: [1, 1, 31],
+ watch283: "fir1_window_highpass283_watch.html",
+ title283: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\HighPassFilter\\fir1_window_highpass.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\HighPassFilter\\fir1_window_highpass.m')\">fir1_window_highpass</a></span>",
+ tcall283: [ [ "From fir1_window line 3", "1#F283N4:B14" ] ],
+ scall283: [ [ "From line 16 to hamming", "110#srcline1" ], [ "From line 23 to fkernel", "163#srcline1" ], [ "From line 24 to fspecinv", "164#srcline1" ], [ "From line 27 to firfilter", "282#srcline1" ] ],
+ MATLABcode284: "fir1_window_lowpass284_mcode.html",
+ fpath284: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fir1_window_lowpass.m",
+ lines284: [1, 1, 31],
+ watch284: "fir1_window_lowpass284_watch.html",
+ title284: "Function: <span class='functionname'><a title='E:&nbsp;\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing&nbsp;Mao\\Compile\\HighPassFilter\\fir1_window_lowpass.m' class='functionlink' href=\"matlab: open('E:\\ProgramData\\Dropbox\\EEGRoomPC\\Zijing Mao\\Compile\\HighPassFilter\\fir1_window_lowpass.m')\">fir1_window_lowpass</a></span>",
+ tcall284: [ [ "From fir1_window line 4", "1#F284N5:B22" ] ],
+ scall284: [ [ "From line 17 to hamming", "110#srcline1" ], [ "From line 24 to fkernel", "163#srcline1" ], [ "From line 27 to firfilter", "282#srcline1" ] ],
+ rootFcnID: "1",
+ firstPage: "fir1_window_c.html",
+ htmlRoot: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing%20Mao/Compile/HighPassFilter/codegen/lib/fir1_window/html/"
+};
+var scriptInfoTable = {
+ fpath1: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fir1_window.m",
+ fpath2: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/constNonSingletonDim.m",
+ fpath3: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/scalarEg.m",
+ fpath4: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/fixedpoint/isnumerictype.m",
+ fpath5: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/fixedpoint/isfimath.m",
+ fpath6: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/fixedpoint/isfi.m",
+ fpath7: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/minOrMax.m",
+ fpath8: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/min.m",
+ fpath9: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/isBuiltInNumeric.m",
+ fpath10: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/isnan.m",
+ fpath11: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/intmax.m",
+ fpath12: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/intmin.m",
+ fpath13: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/eml/eml_int_forloop_overflow_check.m",
+ fpath14: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/relop.m",
+ fpath15: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/max.m",
+ fpath16: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/scalexpCompatible.m",
+ fpath17: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/div.m",
+ fpath18: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/rdivide.m",
+ fpath19: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/mrdivide.p",
+ fpath20: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/ceil.m",
+ fpath21: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/applyScalarFunctionInPlace.m",
+ fpath22: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/ceil.m",
+ fpath23: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/length.m",
+ fpath24: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/isinf.m",
+ fpath25: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/isfinite.m",
+ fpath26: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/floor.m",
+ fpath27: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/floor.m",
+ fpath28: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/floatModel.m",
+ fpath29: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/flintmax.m",
+ fpath30: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/abs.m",
+ fpath31: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/applyScalarFunction.m",
+ fpath32: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/abs.m",
+ fpath33: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/colon.m",
+ fpath34: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/private/eml_realmax.m",
+ fpath35: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/realmax.m",
+ fpath36: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/isFloatClass.m",
+ fpath37: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/private/eml_eps.m",
+ fpath38: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/eps.m",
+ fpath39: "E:/Program Files/MATLAB/R2015b/toolbox/shared/coder/coder/+coder/+internal/indexIntRelop.m",
+ fpath40: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/indexMinus.m",
+ fpath41: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/indexDivide.m",
+ fpath42: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/indexTimes.m",
+ fpath43: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/indexPlus.m",
+ fpath44: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/eml_mtimes_helper.m",
+ fpath45: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/useParforConst.m",
+ fpath46: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/cos.m",
+ fpath47: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/cos.m",
+ fpath48: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/hamming.m",
+ fpath49: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/+scalar/sin.m",
+ fpath50: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elfun/sin.m",
+ fpath51: "E:/Program Files/MATLAB/R2015b/toolbox/shared/coder/coder/+coder/+internal/narginchk.m",
+ fpath52: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/private/eml_isequal_core.m",
+ fpath53: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/isequal.m",
+ fpath54: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/private/process_sumprod_inputs.m",
+ fpath55: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/private/combine_vector_elements.m",
+ fpath56: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/private/sumprod.m",
+ fpath57: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/sum.m",
+ fpath58: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fkernel.m",
+ fpath59: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fspecinv.m",
+ fpath60: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/scalexpAllocNoCheck.m",
+ fpath61: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/scalexpAlloc.m",
+ fpath62: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/assertValidDim.m",
+ fpath63: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/isaUint.m",
+ fpath64: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/unsignedClass.m",
+ fpath65: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/private/eml_dim_to_fore_permutation.m",
+ fpath66: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/allOrAny.m",
+ fpath67: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/ops/all.m",
+ fpath68: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/private/eml_is_permutation.m",
+ fpath69: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/permute.m",
+ fpath70: "E:/Program Files/MATLAB/R2015b/toolbox/eml/eml/+coder/+internal/prodsize.m",
+ fpath71: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/datafun/filter.m",
+ fpath72: "E:/Program Files/MATLAB/R2015b/toolbox/eml/lib/matlab/elmat/ipermute.m",
+ fpath73: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/firfilter.m",
+ fpath74: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fir1_window_highpass.m",
+ fpath75: "E:/ProgramData/Dropbox/EEGRoomPC/Zijing Mao/Compile/HighPassFilter/fir1_window_lowpass.m"
+};
+</script>
+</head>
+<body>
+
+<div class="west">
+<ul class="ui-tabs-nav">
+<li class="ui-tabs-nav-item ui-tabs-selected"><span class="tab-link" id="MATLABcode"><span>MATLAB code</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="callstack"><span>Call stack</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="ccode"><span>C code</span></span></li>
+</ul>
+<div id="MATLABcodebody" class="ui-tabs-panel">
+<!-- Begin Filter -->
+<div class="grayline methodset" onclick="filterClick(event);">
+<a class="collapsed">Filter</a>
+</div>
+<div id="filterbody" class="hidden">
+<table class="myfunc-filter-tbl">
+<tr>
+<td title="Use this filter to display only functions and methods that contain variables or expressions with the specified attributes." colspan="2" class="checkbox">
+<div class="myfunc-filterby-chk"><input type="checkbox" class="filterenable" />
+<div class="filter-enable-lbl">Filter functions and methods</div></div></td></tr><tr>
+<td class="label"><div class="myfunc-filterby-lbl">Filter by:</div></td>
+<td class="select">
+<div class="filters">
+<select class="myfunc-filterby">
+<option id="size">Size</option>
+<option id="complex">Complexity</option>
+<option id="class">Class</option>
+</select>
+</div>
+</td>
+</tr>
+
+<tr>
+<td class="label"><div class="myfunc-filterstr-lbl">Filter:</div></td>
+<td class="input"><div>
+
+<div class="size">
+<select class="myfunc-filter size">
+<option value="1 110 163 282 283 284">1 x 1</option>
+<option value="282 283 284">1 x 2</option>
+<option value="1 282 283 284">1 x 768</option>
+<option value="282">1 x <b>:</b>3</option>
+<option value="163 164 282 283 284">1 x <b>:</b>?</option>
+<option value="283 284">2 x 2</option>
+<option value="110 282 283 284"><b>:</b>? x 1</option>
+</select>
+</div>
+
+<div class="complex">
+<select class="myfunc-filter complex">
+<option value="">Complex values</option>
+<option value="1 110 163 164 282 283 284">Real values</option>
+</select>
+</div>
+<!-- Begin Class Filter -->
+<div class="class">
+<select class="myfunc-filter class">
+<option value="283 284">cell</option>
+<option value="1 110 163 164 282 283 284">double</option>
+</select>
+</div>
+<!-- End Class Filter -->
+</div>
+</td>
+</tr>
+</table>
+<div class="myfunc-count"></div>
+</div>
+<!-- End Filter -->
+<div class="grayline methodset" onmouseover="callTreeMouseOver(event);" onmouseout="callTreeMouseOut(event);" onclick="functionSetClick(event);">
+<a class="expanded">Functions</a>
+</div>
+<!-- Begin Function Tree -->
+<div id="functiontreebody">
+<div class="functionwrapper" onmouseover="callTreeMouseOver(event);" onmouseout="callTreeMouseOut(event);" onclick="functionTreeClick(event);">
+<ol class="tree">
+<!-- Begin Function Tree Roots -->
+<li class="leaf  passed"><a href="#" class="fcn " id="F1N3:F1">fir1_window</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F283N4:F2">fir1_window_highpass</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F284N5:F3">fir1_window_lowpass</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F282N6:F4">firfilter</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F163N7:F5">fkernel</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F164N8:F6">fspecinv</a></li>
+<li class="leaf  passed"><a href="#" class="fcn " id="F110N9:F7">hamming</a></li>
+<!-- End Function Tree Roots -->
+</ol>
+<!-- Function Tree Nodes -->
+<div class="functiontreenodes hidden">
+</div>
+<!-- End Function Tree Nodes -->
+</div>
+</div>
+<!-- End Function Tree -->
+</div>
+<!-- Begin Call Tree -->
+<div id="callstackbody" class="ui-tabs-panel hidden">
+<div class="treewrapper" onmouseover="callTreeMouseOver(event);" onmouseout="callTreeMouseOut(event);" onclick="callTreeClick(event);">
+<ol class="tree">
+<!-- Call Tree Root -->
+<li class="node collapsed passed"><a href="#" class="fcn " id="F1N3:L1">fir1_window</a>
+<ul>
+<li class="node collapsed passed"><a href="#" class="fcn " id="F283N4:L2">fir1_window_highpass</a></li>
+<li class="node collapsed passed"><a href="#" class="fcn " id="F284N5:L3">fir1_window_lowpass</a></li>
+</ul>
+</li>
+</ol>
+<!-- Call Tree Nodes -->
+<div class="callstacknodes hidden">
+<ol class="callstacknode" id="callstacknode1">
+
+<li class="node collapsed passed"><a href="#" class="fcn " id="F1N3:l1">fir1_window</a>
+<ul>
+<li class="node collapsed passed"><a href="#" class="fcn " id="F283N4:l2">fir1_window_highpass</a></li>
+<li class="node collapsed passed"><a href="#" class="fcn " id="F284N5:l3">fir1_window_lowpass</a></li>
+</ul>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode110">
+
+<li class="leaf passed"><a href="#" class="fcn " id="F110N9:l4">hamming</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode163">
+
+<li class="leaf passed"><a href="#" class="fcn " id="F163N7:l5">fkernel</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode164">
+
+<li class="leaf passed"><a href="#" class="fcn " id="F164N8:l6">fspecinv</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode282">
+
+<li class="leaf passed"><a href="#" class="fcn " id="F282N6:l7">firfilter</a>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode283">
+
+<li class="node collapsed passed"><a href="#" class="fcn " id="F283N4:l8">fir1_window_highpass</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn " id="F110N9:l9">hamming</a></li>
+<li class="leaf passed"><a href="#" class="fcn " id="F163N7:l10">fkernel</a></li>
+<li class="leaf passed"><a href="#" class="fcn " id="F164N8:l11">fspecinv</a></li>
+<li class="leaf passed"><a href="#" class="fcn " id="F282N6:l12">firfilter</a></li>
+</ul>
+</li>
+</ol>
+<ol class="callstacknode" id="callstacknode284">
+
+<li class="node collapsed passed"><a href="#" class="fcn " id="F284N5:l13">fir1_window_lowpass</a>
+<ul>
+<li class="leaf passed"><a href="#" class="fcn " id="F110N9:l14">hamming</a></li>
+<li class="leaf passed"><a href="#" class="fcn " id="F163N7:l15">fkernel</a></li>
+<li class="leaf passed"><a href="#" class="fcn " id="F282N6:l16">firfilter</a></li>
+</ul>
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+<!-- End Call Tree -->
+<!-- Begin C Code -->
+<div id="ccodebody" class="ui-tabs-panel hidden">
+
+<table class="myfunc-list" cellspacing="0" cellpadding="0" onclick="reportFileClick(event);">
+<tbody>
+<tr class="report" id="metrics.html"><td class="report"><a href="#">Static Code Metrics Report</a></td></tr>
+</tbody>
+</table><div class="grayline methodset" onclick="ccodeClick(event,1);">
+<a class="expanded">Target Source Files</a>
+</div>
+<!-- Begin C Code List -->
+<div id="ccodelistbody1" class="visible">
+<table class="myfunc-list" cellspacing="0" cellpadding="0" onclick="cFileClick(event);">
+<tbody>
+<tr class="ccode" id="filter_c.html"><td class="ccode"><a href="#">filter.c</a></td></tr>
+<tr class="ccode" id="filter_h.html"><td class="ccode"><a href="#">filter.h</a></td></tr>
+<tr class="ccode" id="fir1_window_c.html"><td class="ccode"><a href="#">fir1_window.c</a></td></tr>
+<tr class="ccode" id="fir1_window_h.html"><td class="ccode"><a href="#">fir1_window.h</a></td></tr>
+<tr class="ccode" id="fir1_window_emxutil_c.html"><td class="ccode"><a href="#">fir1_window_emxutil.c</a></td></tr>
+<tr class="ccode" id="fir1_window_emxutil_h.html"><td class="ccode"><a href="#">fir1_window_emxutil.h</a></td></tr>
+<tr class="ccode" id="fir1_window_initialize_c.html"><td class="ccode"><a href="#">fir1_window_initialize.c</a></td></tr>
+<tr class="ccode" id="fir1_window_initialize_h.html"><td class="ccode"><a href="#">fir1_window_initialize.h</a></td></tr>
+<tr class="ccode" id="fir1_window_terminate_c.html"><td class="ccode"><a href="#">fir1_window_terminate.c</a></td></tr>
+<tr class="ccode" id="fir1_window_terminate_h.html"><td class="ccode"><a href="#">fir1_window_terminate.h</a></td></tr>
+<tr class="ccode" id="fir1_window_types_h.html"><td class="ccode"><a href="#">fir1_window_types.h</a></td></tr>
+<tr class="ccode" id="firfilter_c.html"><td class="ccode"><a href="#">firfilter.c</a></td></tr>
+<tr class="ccode" id="firfilter_h.html"><td class="ccode"><a href="#">firfilter.h</a></td></tr>
+<tr class="ccode" id="fkernel_c.html"><td class="ccode"><a href="#">fkernel.c</a></td></tr>
+<tr class="ccode" id="fkernel_h.html"><td class="ccode"><a href="#">fkernel.h</a></td></tr>
+<tr class="ccode" id="hamming_c.html"><td class="ccode"><a href="#">hamming.c</a></td></tr>
+<tr class="ccode" id="hamming_h.html"><td class="ccode"><a href="#">hamming.h</a></td></tr>
+<tr class="ccode" id="ipermute_c.html"><td class="ccode"><a href="#">ipermute.c</a></td></tr>
+<tr class="ccode" id="ipermute_h.html"><td class="ccode"><a href="#">ipermute.h</a></td></tr>
+<tr class="ccode" id="rtGetInf_c.html"><td class="ccode"><a href="#">rtGetInf.c</a></td></tr>
+<tr class="ccode" id="rtGetInf_h.html"><td class="ccode"><a href="#">rtGetInf.h</a></td></tr>
+<tr class="ccode" id="rtGetNaN_c.html"><td class="ccode"><a href="#">rtGetNaN.c</a></td></tr>
+<tr class="ccode" id="rtGetNaN_h.html"><td class="ccode"><a href="#">rtGetNaN.h</a></td></tr>
+<tr class="ccode" id="rt_nonfinite_c.html"><td class="ccode"><a href="#">rt_nonfinite.c</a></td></tr>
+<tr class="ccode" id="rt_nonfinite_h.html"><td class="ccode"><a href="#">rt_nonfinite.h</a></td></tr>
+<tr class="ccode" id="rtwtypes_h.html"><td class="ccode"><a href="#">rtwtypes.h</a></td></tr>
+</tbody>
+</table>
+</div>
+<!-- End C Code List -->
+</div>
+<!-- End C Code -->
+</div>
+<!-- Tooltips -->
+<div class="aux hidden">
+<div class="tooltips">
+<div class="tooltip" id="TT1"><table class="tooltip"><tr><th>Size</th><td>1 x 768</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT2"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT3"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>logical</td></tr></table></div>
+<div class="tooltip" id="TT4"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT5"><table class="tooltip"><tr><th>Size</th><td>1 x 6</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT6"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT7"><table class="tooltip"><tr><th>Size</th><td>1 x 3</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT8"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT9"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT10"><table class="tooltip"><tr><th>Size</th><td>1 x 23</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT11"><table class="tooltip"><tr><th>Size</th><td>1 x 5</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT12"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT13"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT14"><table class="tooltip"><tr><th>Size</th><td>1 x 4</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT15"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT16"><table class="tooltip"><tr><th>Size</th><td>1 x 0</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT17"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT18"><table class="tooltip"><tr><th>Size</th><td>1 x 3</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT19"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>int32</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT20"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT21"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>uint8</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT22"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT23"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>?</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT24"><table class="tooltip"><tr><th>Size</th><td>2 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT25"><table class="tooltip"><tr><th>Size</th><td><b>:</b>? x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT26"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>mxArray</td></tr></table></div>
+<div class="tooltip" id="TT27"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT28"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT29"><table class="tooltip"><tr><th>Size</th><td>1 x 7</td></tr><tr><th>Class</th><td>char</td></tr></table></div>
+<div class="tooltip" id="TT30"><table class="tooltip"><tr><th>Size</th><td>0 x 0</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT31"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>function_handle</td></tr></table></div>
+<div class="tooltip" id="TT32"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>?</td></tr><tr><th>Class</th><td>logical</td></tr></table></div>
+<div class="tooltip" id="TT33"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>unknown</td></tr></table></div>
+<div class="tooltip" id="TT34"><table class="tooltip"><tr><th>Size</th><td>1 x 2</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT35"><table class="tooltip"><tr><th>Size</th><td>2 x 1</td></tr><tr><th>Class</th><td>logical</td></tr></table></div>
+<div class="tooltip" id="TT36"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>int8</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT37"><table class="tooltip"><tr><th>Size</th><td>1 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT38"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>2</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT39"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>768</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT40"><table class="tooltip"><tr><th>Size</th><td><b>:</b>768 x 1</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT41"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>768</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT42"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>3</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT43"><table class="tooltip"><tr><th>Size</th><td>1 x <b>:</b>?</td></tr><tr><th>Class</th><td>double</td></tr><tr><th>Complex</th><td>No</td></tr></table></div>
+<div class="tooltip" id="TT44"><table class="tooltip"><tr><th>Size</th><td>2 x 2</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="TT45"><table class="tooltip"><tr><th>Size</th><td>2 x 2</td></tr><tr><th>Class</th><td>cell</td></tr></table></div>
+<div class="tooltip" id="V1"><table class="tooltip"><tr><th>Value</th><td>        1000</br></td></tr></table></div>
+</div>
+</div>
+<!-- End Tooltips -->
+
+<div class="south">
+<ul class="ui-tabs-nav">
+<li class="ui-tabs-nav-item ui-tabs-selected"><span class="tab-link" id="summary"><span>Summary</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="messages"><span>All Messages (0)</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="watchlist"><span>Variables</span></span></li>
+<li class="ui-tabs-nav-item hidden"><span class="tab-link" id="watchload"><span>Variables</span></span></li>
+<li class="ui-tabs-nav-item"><span class="tab-link" id="buildlog1"><span>Target Build Log</span></span></li>
+</ul>
+
+<!-- Compilation Summary -->
+<div id="summarybody" class="ui-tabs-panel">
+<table cellpadding="1" cellspacing="4">
+<tr><td>C source code generated on:</td><td>09-May-2016 23:17:45</td></tr>
+<tr><td>Coding target:</td><td>Static Library</td></tr>
+<tr><td>Number of errors:</td><td><a href="javascript:selectMessagesTab();">0</a></td></tr>
+<tr><td>Number of warnings:</td><td><a href="javascript:selectMessagesTab();">0</a></td></tr>
+<tr><td>Number of notices:</td><td><a href="javascript:selectMessagesTab();">0</a></td></tr>
+</table>
+<p/><p/><table>
+<tr><td><b>Tell Us What You Think</b></td></tr>
+<tr><td>We value your feedback. Please take a few minutes to answer this short questionnaire regarding the Code Generation Report.</td></tr>
+<tr><td><a href="matlab: web('http://www.customersat3.com/TakeSurvey.asp?si=ELu7GTnTYtk%3D','-browser');">&gt;&gt;Provide Feedback</a></td></tr>
+</table>
+</div>
+
+<!-- Message Table -->
+<div id="messagesbody" class="ui-tabs-panel hidden">
+<div>
+<div class="msgsuccess">Code generation successful. Click here to <a href="javaScript:selectSummaryTab();">view summary</a>.</div>
+</div>
+</div>
+<!-- Watchlist Table -->
+<div id="watchlistbody" class="ui-tabs-panel hidden">
+</div>
+<div id="watchloadbody" class="ui-tabs-panel hidden">
+Loading Variables table ...
+</div>
+
+<!-- Target Build Log -->
+<div id="buildlog1body" class="ui-tabs-panel hidden">
+<div class="grayline"></div>
+<table cellpadding="4" cellspacing="1"><tr>
+<td align="left" class="td-linebottomrt-gray" colspan="2">Build Parameters</td>
+</tr>
+<tr><td align="left" valign="top" class="td-linebottomrt">Build directory</td>
+<td align="left" valign="top" class="td-linebottomrt-link"><a href="matlab: cd('E:\ProgramData\Dropbox\EEGRoomPC\Zijing Mao\Compile\HighPassFilter\codegen\lib\fir1_window')">E:\ProgramData\Dropbox\EEGRoomPC\Zijing Mao\Compile\HighPassFilter\codegen\lib\fir1_window</a></td></tr>
+<tr><td align="left" valign="top" class="td-linebottomrt">Make wrapper</td>
+<td align="left" valign="top" class="td-linebottomrt-link">.\fir1_window_rtw.bat</td></tr>
+<tr><td align="left" valign="top" class="td-linebottomrt">Make command</td>
+<td align="left" valign="top" class="td-linebottomrt-link">E:\PROGRA~3\MATLAB\R2015b\bin\win64\gmake -f fir1_window_rtw.mk all</td></tr>
+</table>
+<br/>
+<table border="1" cellpadding="4" cellspacing="1" width="100%">
+<tr><td align="left" class="td-linebottomrt-gray">Build Log</td></tr>
+<tr><td valign="top" class="td-script">
+<pre>
+<span class="td-line-number">    1   </span><span class="td-line-normal">Compilation suppressed: generating code only.</span>
+</pre>
+</td></tr></table>
+
+</div>
+</div>
+<!-- Begin MATLAB Code Panel -->
+<div class="center">
+<div class="center-title">
+<div class="ui-tabs-nav-item ui-tabs-selected">
+<span class="functiontitle">
+</span>
+<!-- Begin Call Sites -->
+<span id="callsiteselecttable" class="call-sites-tbl">
+<span id="callsiteselectlabel" class="filtered">Calls:</span>
+<select id="callsiteselect" onchange="callSiteChange(event)">
+<option value="callsiteprompt">Select a function call:</option>
+</select>
+</span>
+<!-- End Call Sites -->
+</div>
+</div>
+<div class="ui-tabs-panel">
+<div class="code" onmouseover="mcodeMouseOver(event);" onmouseout="mcodeMouseOut(event);"onclick="mcodeClick(event);">
+</div>
+</div>
+</div>
+<!-- End MATLAB Code Panel -->
+</body>
+</html>

@@ -22,6 +22,7 @@ import java.util.Random;
 
 import com.matrixmultiplication.MatrixMultiplication;
 import com.getcoherence.GetCoherence;
+import com.fir1window.Fir1Window;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -49,6 +50,11 @@ public class MainActivity extends AppCompatActivity {
     private double[] x = new double[768];
     private double[] y = new double[768];
     private double fs = 256;
+
+    private double[] input = new double[768];
+    private double low = 0.5;
+    private double high = 50;
+
 
 //    private MatrixMultiplication mm;
 //    private BandpowerCalc bc;
@@ -118,7 +124,19 @@ public class MainActivity extends AppCompatActivity {
 //        }
 //        Log.d(TAG, Arrays.toString(mscxy));
 
-
+        // calculate the filtered data
+        for (int i = 0; i < x.length; i++) {
+            int n = randSignal.nextInt(100);
+            input[i] = n;
+        }
+        for (int idx = 0; idx < 768; idx++){
+            Log.d(TAG, Double.toString(input[idx]));
+        }
+        Log.d(TAG, "====================");
+        Fir1Window.fir1_window(input, low, high);
+        for (int idx = 0; idx < 768; idx++){
+            Log.d(TAG, Double.toString(input[idx]));
+        }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -228,6 +246,7 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("MatrixMultiplication");
         System.loadLibrary("BandpowerCalc");
         System.loadLibrary("CoherenceCalc");
+        System.loadLibrary("Fir1Window");
     }
 
 //    public interface dll extends Library {
