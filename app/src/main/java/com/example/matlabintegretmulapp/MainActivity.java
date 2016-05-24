@@ -247,6 +247,7 @@ public class MainActivity extends AppCompatActivity {
         System.loadLibrary("BandpowerCalc");
         System.loadLibrary("CoherenceCalc");
         System.loadLibrary("Fir1Window");
+        System.loadLibrary("CalcBandpower");
     }
 
 //    public interface dll extends Library {
